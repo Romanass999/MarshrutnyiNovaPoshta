@@ -2,6 +2,7 @@ services:
   - type: web
     name: marshrutnyi-nova-poshta-api
     runtime: node
+    rootDir: server
     buildCommand: npm install
     startCommand: npm start
     plan: free
